@@ -35,3 +35,8 @@ Buscar Lista de Estudantes
 
       url: /diario-classe/api/estudante/lista.{formato} (json ou xml)
       method: GET
+
+Deletar Estudante
+
+      url: /diario-classe/api/estudante/{id}
+      method: DELETE
