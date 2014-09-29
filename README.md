@@ -10,7 +10,7 @@ Web App (rotas)
 
 API REST
 --------
-*Adicionar estudante:
+* Adicionar estudante:
       
       url: /diario-classe/api/estudante
       method: PUT
