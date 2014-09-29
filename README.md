@@ -5,7 +5,7 @@ Este projeto tem como objetivo demonstrar o uso do VRaptor4. Neste projeto foi a
 
 Cadastro de Estudante 
 ---------------------
-            `url:       /diario-classe/estudante`
+    `url:       /diario-classe/estudante`
 
 Cadastro de Disiciplinas
 ------------------------
