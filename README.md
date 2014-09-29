@@ -3,9 +3,9 @@ Coding Dojo Usando VRaptor 4
 
 Este projeto tem como objetivo demonstrar o uso do VRaptor4. Neste projeto foi abordado:
 
-Cadastro de Estudante 
----------------------
-    url:       /diario-classe/estudante
+Rotas 
+-----
+    * `/diario-classe/estudante`
 
 Cadastro de Disiciplinas
 ------------------------
