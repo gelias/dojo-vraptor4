@@ -10,8 +10,8 @@ Web App (rotas)
 
 API REST
 --------
-   Adicionar estudante:
-      `url: /diario-classe/api/estudante`
-      `method: PUT`
-      `Content-type: application/json` ou `Content-type: application/xml`
-      `{ "estudante": { "id": "1", "nome": "Guilherme Elias"} }`
+      Adicionar estudante:
+      url: /diario-classe/api/estudante
+      method: PUT
+      Content-type: application/json` ou `Content-type: application/xml
+      { "estudante": { "id": "1", "nome": "Guilherme Elias"} }
