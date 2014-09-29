@@ -10,9 +10,9 @@ Web App (rotas)
 
 API REST
 --------
-      Estudante (rotas)
-      --------
-
+Estudante - (rotas)
+--------
+      `Adicionar:`
       url: /diario-classe/api/estudante
       method: PUT
       Content-type: application/json` ou `Content-type: application/xml
