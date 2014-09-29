@@ -14,11 +14,19 @@ API REST
 Estudante - (rotas)
 --------
 Adicionar Estudante
-
-      url: /diario-classe/api/estudante
-      method: PUT
-      Content-type: application/json` ou `Content-type: application/xml
-      { "estudante": { "id": "1", "nome": "Guilherme Elias"} } ou <estudante><id>1</id><nome>Guilherme Elias</nome></estudante>
+      USANDO XML:
+            url: /diario-classe/api/estudante
+            method: PUT
+            Content-type: application/xml`
+            <estudante>
+                  <id>1</id>
+                  <nome>Guilherme Elias</nome>
+            </estudante>
+      USANDO JSON:
+            url: /diario-classe/api/estudante
+            method: PUT
+            Content-type: application/json`
+            { "estudante": { "id": "1", "nome": "Guilherme Elias"} }
 
 Editar Estudante
 
