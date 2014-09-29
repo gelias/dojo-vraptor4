@@ -13,7 +13,7 @@ API REST
 
 Estudante - (rotas)
 --------
-Adicionar Estudante
+* Adicionar Estudante
 
       USANDO XML:
             url: /diario-classe/api/estudante
