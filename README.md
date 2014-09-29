@@ -1,9 +1,13 @@
 Coding Dojo Usando VRaptor 4
 ============================
 
-Este projeto foi desenvolvido através de um #codingdojo realizado no dia 28/9/2014 pelos alunos em sala de aula durante a disciplina `Java para Web 3.0` do curso de Pos Graduacao da [Faculdade IMED] (http://www.imed.edu.br) de Passo Fundo.
+Este projeto foi desenvolvido através de um [#codingdojo](http://pt.wikipedia.org/wiki/Coding_Dojo) realizado no dia 28/9/2014 pelos alunos em sala de aula durante a disciplina `Java para Web 3.0` do curso de Pos Graduacao da [Faculdade IMED] (http://www.imed.edu.br) de Passo Fundo.
 
-Web App (rotas) 
+Participantes:
+* Guilherme Elias
+
+
+Web App (rotas)
 -------
 * Cadastro de Estudante `/diario-classe/estudante`
 * Cadastro de Disiciplinas `/diario-classe/disciplina`
