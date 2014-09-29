@@ -1,4 +1,4 @@
-# Demo Usando VRaptor 4
+# Coding Dojo Usando VRaptor 4
 
 Este projeto tem como objetivo demonstrar o uso do VRaptor4. Neste projeto foi abordado:
 
