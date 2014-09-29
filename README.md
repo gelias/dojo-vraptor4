@@ -25,3 +25,7 @@ Editar Estudante
       url: /diario-classe/api/estudante/{id}.{formato} (json ou xml)
       method: POST
       { "estudante": { "id": "1", "nome": "Guilherme da S. Elias"} } ou <estudante><id>1</id><nome>Guilherme da S. Elias</nome></estudante>
+Listar Estudante por Id
+
+      url: /diario-classe/api/estudante/{id}.{formato} (json ou xml)
+      method: GET
