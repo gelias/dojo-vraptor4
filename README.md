@@ -1,7 +1,7 @@
 Coding Dojo Usando VRaptor 4
 ============================
 
-Este projeto tem como objetivo demonstrar o uso do VRaptor4. Neste projeto foi abordado:
+Este projeto foi desenvolvido através de um #codingdojo realizado no dia 28/9/2014 pelos alunos em sala de aula durante a disciplina `Java para Web 3.0` do curso de Pos Graduacao da [Faculdade IMED] (http://www.imed.edu.br) de Passo Fundo.
 
 Web App (rotas) 
 -------
