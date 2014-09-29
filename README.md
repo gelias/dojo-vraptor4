@@ -19,10 +19,7 @@ Adicionar Estudante
             url: /diario-classe/api/estudante
             method: PUT
             Content-type: application/xml`
-            Content: <estudante>
-                        <id>1</id>
-                        <nome>Guilherme Elias</nome>
-                      </estudante>
+            Content: <estudante><id>1</id><nome>Guilherme Elias</nome></estudante>
       USANDO JSON:
             url: /diario-classe/api/estudante
             method: PUT
@@ -32,16 +29,13 @@ Adicionar Estudante
 Editar Estudante
 
       USANDO XML
-      url: /diario-classe/api/estudante/{id}.xml
-      method: POST
-      Content:    <estudante>
-                      <id>1</id>
-                      <nome>Guilherme da S. Elias</nome>
-                  </estudante>
+            url: /diario-classe/api/estudante/{id}.xml
+            method: POST
+            Content:    <estudante><id>1</id><nome>Guilherme da S. Elias</nome></estudante>
       USANDO JSON
-      url: /diario-classe/api/estudante/{id}.json
-      method: POST
-      Content:    { "estudante": { "id": "1", "nome": "Guilherme da S. Elias"} }
+            url: /diario-classe/api/estudante/{id}.json
+            method: POST
+            Content:    { "estudante": { "id": "1", "nome": "Guilherme da S. Elias"} }
 
 Buscar Estudante por Id
 
@@ -66,10 +60,7 @@ Adicionar Disciplina
             url: /diario-classe/api/disciplina
             method: PUT
             Content-type: application/xml`
-            Content: <disciplina>
-                        <id>1</id>
-                        <nome>Guilherme Elias</nome>
-                      </disciplina>
+            Content: <disciplina><id>1</id><nome>Guilherme Elias</nome></disciplina>
       USANDO JSON:
             url: /diario-classe/api/disciplina
             method: PUT
@@ -78,9 +69,14 @@ Adicionar Disciplina
 
 Editar disciplina
 
-      url: /diario-classe/api/disciplina/{id}.{formato}
-      method: POST
-      { "disciplina": { "id": "1", "nome": "Java Web 3.0"} } ou <disciplina><id>1</id><nome>Java web 3.0</nome></estudante>
+      USANDO XML
+            url: /diario-classe/api/disciplina/{id}.xml
+            method: POST
+            Content:    <disciplina><id>1</id><nome>Java web 3.0</nome></estudante>
+      USANDO JSON
+            url: /diario-classe/api/disciplina/{id}.{formato}
+            method: POST
+            Content:    { "disciplina": { "id": "1", "nome": "Java Web 3.0"} }
 
 Buscar Disciplina por Id
 
