@@ -11,9 +11,9 @@ Web App (rotas)
 API REST
 --------
 
-      Adicionar Estudante
-
       url: /diario-classe/api/estudante
       method: PUT
       Content-type: application/json` ou `Content-type: application/xml
       { "estudante": { "id": "1", "nome": "Guilherme Elias"} }
+
+Editar Estudante
