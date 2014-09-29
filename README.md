@@ -52,7 +52,7 @@ Deletar Estudante
       url: /diario-classe/api/estudante/{id}
       method: DELETE
 
-Estudante - (rotas)
+Disciplina - (rotas)
 --------
 Adicionar Disciplina
 
