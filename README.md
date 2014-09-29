@@ -8,11 +8,12 @@ Web App (rotas)
 * Cadastro de Estudante `/diario-classe/estudante`
 * Cadastro de Disiciplinas `/diario-classe/disciplina`
 
-API REST
+#API REST
 --------
+
 Estudante - (rotas)
 --------
-      `Adicionar:`
+      Adicionar:
       url: /diario-classe/api/estudante
       method: PUT
       Content-type: application/json` ou `Content-type: application/xml
