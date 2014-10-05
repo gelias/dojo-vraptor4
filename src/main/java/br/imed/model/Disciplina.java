@@ -1,11 +1,30 @@
 package br.imed.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+import javax.validation.constraints.Size;
+
+import org.hibernate.validator.constraints.NotEmpty;
+
+@Entity
+@Table(name="disciplina")
 public class Disciplina {
 
 	public Disciplina() {
 	}
 	
+	@Id
+	@Column
 	private Long id;
+	
+	@NotEmpty
+	@Size(min=5, max=100)
+	@Column
 	private String nome;
 	
 	public Long getId() {
