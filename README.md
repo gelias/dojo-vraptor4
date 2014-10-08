@@ -103,4 +103,4 @@ Persistência
 
 O projeto já está configurado com as dependências do [Postgres](http://www.postgresql.org/) e [HSQLDB](http://hsqldb.org/) junto ao arquivo pom.xml. O arquivo abaixo possui os scripts para geração da database e tabelas necessárias
 
-      resources/sql/schema.sql
+      sql/diarioclasse.sql
