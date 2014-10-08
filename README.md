@@ -98,6 +98,30 @@ Deletar Disciplina
       method: DELETE
 
 
+Resolver Dependências
+=====================
+
+O projeto usa [Maven]() como gerenciador de dependências. Para usar o maven temos duas opções
+
+*    Instalando o [plugin M2E](http://marketplace.eclipse.org/category/free-tagging/m2e) no Eclipse. [Dica do GUJ](http://www.guj.com.br/java/263906-resolvido-instalar-o-maven-eclipse-plugin) 
+*   Instalando o Maven manualmente através dos passos abaixo:
+
+1.    Usando o terminal garanta que sua máquina já possui o JDK instalado e configurado. Para conferir digite:
+      
+      `java -version`
+
+2.    Se tudo estiver ok, deverá aparece a versão do java instalado como por exemplo `java version "1.7.0_60"`
+3.    Para resolver as dependências do projeto você precisa ter o [Maven](http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) instalado. Para tanto siga o [tutorial](http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) rápido de 5 :-) minutos do Maven.
+4.    Para confirmar que o Maven está rodando corretamente abra o terminal e digite:
+      
+      `mvn --help`
+5.    Pronto agora estamos aptos a resovler as dependências do projeto. Para isso através do terminal acesse a pasta do projeto e digite:
+      
+      `mvn clean install`
+
+Caso tenha alguma dificuldade com o Maven, ou ache ele bem ruim, não se preocupe você não está sozinho :-) #ivyfellings
+      
+
 Persistência
 ============
 
