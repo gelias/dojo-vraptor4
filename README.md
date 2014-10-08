@@ -96,3 +96,9 @@ Deletar Disciplina
 
       url: /diario-classe/api/disciplina/{id}
       method: DELETE
+
+
+Persistência
+============
+
+O projeto já possui entre suas dependências as libs do Postgres e HSQLDB para uso. o arquivo schema.sql localizado na pasta resources/sql possui os scripts para geração da database e tabelas necessárias
