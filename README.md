@@ -119,6 +119,8 @@ O projeto usa [Maven]() como gerenciador de dependências. Para usar o maven tem
       
       `mvn clean install`
 
+6.    Após rodar com sucesso a atualização das libs e build via Maven, atualize os arquivos do projeto no Eclipse usando a tecla `F5` 
+
 Caso tenha alguma dificuldade com o Maven, ou ache ele bem ruim, não se preocupe você não está sozinho :-) #ivyfellings
       
 
