@@ -36,4 +36,19 @@ WITH (
 ALTER TABLE estudante
   OWNER TO postgres;
 
+-- CREATE TABLE presenca
+CREATE TABLE presenca
+(
+  id bigserial NOT NULL,
+  id_disciplina bigint NOT NULL,
+  id_estudante bigint NOT NULL,
+  CONSTRAINT presenca_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE presenca
+  OWNER TO postgres;
 
+ ALTER TABLE presenca ADD CONSTRAINT estudante_fkey FOREIGN KEY (id_estudante) REFERENCES estudante (id) ON UPDATE NO ACTION ON DELETE NO ACTION;
+ ALTER TABLE presenca ADD CONSTRAINT disciplina_fkey FOREIGN KEY (id_disciplina) REFERENCES disciplina (id) ON UPDATE NO ACTION ON DELETE NO ACTION;
